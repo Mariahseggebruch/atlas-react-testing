@@ -1,0 +1,33 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`renders SongTitle with missing artist 1`] = `
+<div>
+  <div>
+    <h2
+      class="leading-8 text-2xl font-bold mb-2 text-vista-blue-900"
+    >
+      Song Title
+    </h2>
+    <p
+      class="mb-4 text-vista-blue-900"
+    />
+  </div>
+</div>
+`;
+
+exports[`renders SongTitle with title and artist 1`] = `
+<div>
+  <div>
+    <h2
+      class="leading-8 text-2xl font-bold mb-2 text-vista-blue-900"
+    >
+      Song Title
+    </h2>
+    <p
+      class="mb-4 text-vista-blue-900"
+    >
+      Artist Name
+    </p>
+  </div>
+</div>
+`;

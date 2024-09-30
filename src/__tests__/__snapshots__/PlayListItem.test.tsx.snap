@@ -1,0 +1,61 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`renders PlayListItem with all details 1`] = `
+<div>
+  <div
+    class="w-full mb-2 pr-3 flex justify-between font-medium"
+  >
+    <div
+      class="wrapper text-left text-sm"
+    >
+      <div
+        class="text-base"
+      >
+        Song Title
+      </div>
+      <div
+        class="text-butterfly-bush-950"
+      >
+        Artist Name
+      </div>
+    </div>
+    <div
+      class="length flex items-center"
+    >
+      <div
+        class="text-sm text-butterfly-bush-950"
+      >
+        3:45
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders PlayListItem with missing details 1`] = `
+<div>
+  <div
+    class="w-full mb-2 pr-3 flex justify-between font-medium"
+  >
+    <div
+      class="wrapper text-left text-sm"
+    >
+      <div
+        class="text-base"
+      >
+        Song Title
+      </div>
+      <div
+        class="text-butterfly-bush-950"
+      />
+    </div>
+    <div
+      class="length flex items-center"
+    >
+      <div
+        class="text-sm text-butterfly-bush-950"
+      />
+    </div>
+  </div>
+</div>
+`;

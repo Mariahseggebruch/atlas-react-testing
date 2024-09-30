@@ -1,0 +1,29 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`renders CoverArt with a placeholder if no image is provided 1`] = `
+<div>
+  <div
+    class="flex cover-art mb-6 w-full justify-center"
+  >
+    <img
+      alt="Current Album Cover"
+      class="rounded-md md:w-400 md:h-400"
+      src=""
+    />
+  </div>
+</div>
+`;
+
+exports[`renders CoverArt with an image 1`] = `
+<div>
+  <div
+    class="flex cover-art mb-6 w-full justify-center"
+  >
+    <img
+      alt="Current Album Cover"
+      class="rounded-md md:w-400 md:h-400"
+      src="https://example.com/album-cover.jpg"
+    />
+  </div>
+</div>
+`;
